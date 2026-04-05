@@ -1,0 +1,65 @@
+/* css/variables.css — Design tokens */
+:root {
+  /* Colors */
+  --color-bg:          #0A0A14;
+  --color-surface:     #111120;
+  --color-surface-2:   #181830;
+  --color-border:      rgba(255, 255, 255, 0.07);
+  --color-border-hover:rgba(255, 255, 255, 0.14);
+
+  --color-text:        #E8E8F5;
+  --color-text-sub:    #7070A0;
+  --color-text-muted:  #40406A;
+
+  /* Brand */
+  --color-accent:      #FF5F1F;
+  --color-accent-2:    #FF3CAC;
+  --color-accent-glow: rgba(255, 95, 31, 0.25);
+
+  /* Semantic */
+  --color-green:       #00E5A0;
+  --color-yellow:      #FFD23F;
+  --color-red:         #FF4757;
+  --color-blue:        #5B8DEF;
+  --color-teal:        #00C9B1;
+
+  /* Crowd levels */
+  --crowd-low:         var(--color-green);
+  --crowd-med:         var(--color-yellow);
+  --crowd-high:        var(--color-red);
+
+  /* Typography */
+  --font-display:      'Syne', sans-serif;
+  --font-body:         'DM Sans', sans-serif;
+
+  /* Spacing scale */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+
+  /* Radius */
+  --radius-sm:  8px;
+  --radius-md:  14px;
+  --radius-lg:  20px;
+  --radius-xl:  28px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card:  0 1px 3px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
+  --shadow-glow:  0 0 30px var(--color-accent-glow);
+  --shadow-modal: 0 24px 80px rgba(0,0,0,0.7);
+
+  /* Transitions */
+  --transition-fast:   0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow:   0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout */
+  --app-max-width: 460px;
+  --header-height: 60px;
+}
