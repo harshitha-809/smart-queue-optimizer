@@ -108,12 +108,9 @@ Suggested stack: **Firebase Realtime Database** (operators update crowd %, visit
 
 ---
 
-## 📱 Screenshots
+## 📱 Live Demo
 
-| Setup | Itinerary | Operator Panel |
-|---|---|---|
-| Pick rides + set time | Optimized schedule | Live crowd control |
-
+   Open `index.html` directly in any browser — no build step, no install needed.
 ---
 
 ## 🛣 Roadmap
