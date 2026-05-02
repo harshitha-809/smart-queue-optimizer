@@ -81,7 +81,7 @@ parkpal/
 No build step required. Open `index.html` in any modern browser:
 
 ```bash
-git clone https://github.com/harshitha-809/parkpal.git
+git clone https://github.com/harshitha-809/smart-queue-optimizer.git
 cd parkpal
 open index.html        # macOS
 # or
